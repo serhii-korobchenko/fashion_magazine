@@ -1,5 +1,5 @@
-from flask import Flask, render_template, request, redirect
-from models import Note, Tag, db_session
+from flask import Flask, render_template
+
 
 app = Flask(__name__)
 app.debug = True
