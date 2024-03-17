@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)https://designergpt.replit.app/pages/12b9339b33e9644b6a3bf0b8ffc7d7ee.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='Sparks Fashion Magazine/pico.min.css') }}">
+    <style>
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        a, a:visited {
+            color: #d4af37;
+        }
+        h2, h3, h4 {
+            color: #333;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        nav ul li a {
+            color: #d4af37;
+        }
+        nav ul li strong {
+            color: #d4af37;
+        }
+        figure figcaption, footer small a {
+            color: #d4af37;
+        }
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .grid > article, .grid > section {
+            flex: 1 1 300px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin: 10px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        audio {
+            width: 100%;
+        }
+    </style>
+    <title>Sparks Fashion Magazine</title>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Sparks Fashion Magazine</strong></li>
+        </ul>
+        <ul>
+            <li><a href="/" >Home</a></li>
+            <li><a href="/heartess_collection/" >Heartess Collection</a></li>
+            <li><a href="" >Instagram</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">YouTube</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <h1>Sparks Fashion Magazine</h1>
+        <p>Welcome to Sparks Fashion Magazine – Your premier source for the latest in fashion, beauty, and lifestyle trends, championing inclusivity and diversity in the fashion industry.</p>
+        <img src="{{ url_for('static', filename='Sparks Fashion Magazine/saved_resource') }}" alt="Fashion Magazine">
+        <div class="grid">
+            <article>
+                <h3>Lucas Graham</h3>
+                <p>Discover the journey of Lucas Graham, a visionary fashion designer challenging the norms of the industry.</p>
+                <img src="{{ url_for('static', filename='Sparks Fashion Magazine/saved_resource(1)') }}" alt="Lucas Graham">
+            </article>
+            <article>
+                <h3>Lucas Graham's "Heartess" Collection</h3>
+                <p>Delve into the innovative designs of Lucas Graham's "Heartess" collection, breaking barriers in the fashion world.</p>
+
+                <img src="{{ url_for('static', filename='Sparks Fashion Magazine/saved_resource(2)') }}" alt="Heartess Collection">
+            </article>
+        </div>
+        <section>
+            <h2>The Runway of Equality</h2>
+            <p>Explore the runway showcase of the "Heartess" collection, a celebration of diversity and inclusivity in fashion.</p>
+
+            <img src="{{ url_for('static', filename='Sparks Fashion Magazine/saved_resource(3)') }}" alt="Runway Show">
+        </section>
+        <section>
+            <h2>Award-Winning Design</h2>
+            <p>Learn about the recognition received by Lucas Graham for his groundbreaking designs, driving positive change in the fashion industry.</p>
+
+            <img src="{{ url_for('static', filename='Sparks Fashion Magazine/saved_resource(4)') }}" alt="Fashion Award">
+        </section>
+        <section>
+            <h2>Embracing Sustainability: The Future of Fashion with Sparks Fashion Magazine</h2>
+            <p>In a world where fashion meets innovation, Sparks Fashion Magazine is leading the charge towards a sustainable future. With a commitment to inclusivity and diversity, Sparks is not just a fashion magazine; it's a catalyst for change in the industry.</p>
+
+            <img src="{{ url_for('static', filename='Sparks Fashion Magazine/saved_resource(5)') }}" alt="Sustainable Fashion">
+        </section>
+        <section>
+            <h2>Audio Podcast with Editor in Chief Sasha Loan</h2>
+            <p>Join Sasha Loan as she discusses the impact of sustainability in fashion and the future directions for Sparks Magazine.</p>
+            <audio controls="">
+
+                <source src="{{ url_for('static', filename='Sparks Fashion Magazine/podcast.mp3') }}" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+    </main>
+    <footer class="container">
+        <small>
+            <a href="">Privacy Policy</a> • <a href="">Terms of Service</a>
+        </small>
+    </footer>
+
+</body></html>

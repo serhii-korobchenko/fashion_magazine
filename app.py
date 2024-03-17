@@ -9,7 +9,7 @@ app.env = "development"
 @app.route("/", strict_slashes=False)
 def index():
 
-    return render_template("Home_page.html")
+    return render_template("Sparks Fashion Magazine.html")
 
 
 @app.route("/heartess_collection/", strict_slashes=False)
